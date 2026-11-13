@@ -65,7 +65,7 @@ async function shot(name) {
 const results = [];
 async function step(name, fn) {
   const before = errors.length;
-  try { await fn(); if (errors.length > before) throw new Error(errors.slice(before).join('\n')); results.push(['ok', name]); }
+  console.log('… ' + name); try { await fn(); if (errors.length > before) throw new Error(errors.slice(before).join('\n')); results.push(['ok', name]); }
   catch (e) { results.push(['FAIL', `${name}: ${e.message}`]); }
 }
 
@@ -301,7 +301,9 @@ try {
 
   await step('offline (service worker): the app opens and a live session plays from cached narration', async () => {
    try {
-    await js('navigator.serviceWorker.ready.then(() => true)');
+    const sw = await js(`Promise.race([navigator.serviceWorker.ready.then(() => 'ready'), new Promise((r) => setTimeout(r, 15000, 'timeout'))])
+      .then(async (x) => { const g = await navigator.serviceWorker.getRegistration(); return x + ' ' + JSON.stringify(g ? { scope: g.scope, installing: !!g.installing, waiting: !!g.waiting, active: g.active?.state } : null); })`);
+    if (!sw.startsWith('ready')) throw new Error(`service worker not ready: ${sw}`);
     await send('Page.reload');
     await waitFor('!!(window.__stillpoint && window.__stillpoint.content)', 10000, 'reload');
     if (!(await js('!!navigator.serviceWorker.controller'))) throw new Error('page not controlled by the service worker');

@@ -17,7 +17,10 @@ function diag(kind, extra = {}) {
     t: player?.currentTime ?? 0, state: player?.state, inBed: player?.inBed ?? null, ctx: player?.ctx?.state ?? null,
     ctxTime: player?.ctx?.currentTime ?? null, el: player?.el?.currentTime ?? player?.keepAliveEl?.currentTime ?? null, ...extra,
   });
-  try { fetch('/__diag', { method: 'POST', body, keepalive: true }).catch(() => {}); } catch { /* ignore */ }
+  // Only the local server (web/tools/server.py) collects diagnostics; static hosts don't.
+  if (!/github\.io$/.test(location.hostname)) {
+    try { fetch(new URL('../__diag', location.href), { method: 'POST', body, keepalive: true }).catch(() => {}); } catch { /* ignore */ }
+  }
   return body;
 }
 
