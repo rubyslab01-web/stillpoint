@@ -152,6 +152,14 @@ Serving needs only Python 3. Rendering the audio uses Swift (the native `session
 
 No web code changes are needed. Edit or add `Sessions/*.json` (and narration with `./narrate.sh`) exactly as for the native app, then restart `./serve-web.sh` to render the new audio. Until it is rendered, the app plays that session with the live engine and says so on the session row.
 
+### Online version (GitHub Pages)
+
+The web app is published at **https://rubyslab01-web.github.io/stillpoint/** from the `gh-pages` branch of this (public) repo. Open it in Safari on the iPhone and use Share › Add to Home Screen. It works offline for history and settings, and sessions download their audio when they start.
+
+To publish changes: commit and push as usual, then run `web/tools/deploy-pages.sh`. It renders any stale audio, builds the site, and replaces the `gh-pages` branch with a single fresh commit. The 8-hour noise bed (118 MB) is left out because GitHub rejects files over 100 MB, so that option plays with the live engine.
+
+The repo is public: anyone with the link can use the app or read the code, scripts and research. Your history stays on your phone and is never uploaded.
+
 ### Deploying elsewhere (later)
 
 `node web/tools/build-static.mjs` assembles `web/dist/`, a self-contained static site, about 550 MB (or 350 MB with `--no-beds`; Sleep's night-time noise then plays live). Any static host with HTTPS and HTTP range requests can serve it, for example Netlify, an S3 bucket, or your own server. Check the host's per-file size limit: the largest file is the 8-hour noise bed (118 MB), or 66 MB with `--no-beds`. No account has been set up.
