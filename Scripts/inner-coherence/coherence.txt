@@ -1,0 +1,62 @@
+# Inner Coherence - "Steady Heart" (~10 min, paced breathing at six breaths a minute)
+# voice: af_heart
+# speed: 0.95
+# gap: 0.5
+# soft: off
+
+[ic-pre-1]
+Welcome. This is a breathing practice for steadying your body and mind. Sit comfortably, with your back upright but relaxed, and let your hands rest.
+
+[ic-pre-2]
+In a moment you will hear the wind moving through the trees. As the wind rises, breathe in through your nose. As it settles, breathe out, slowly. The breath out is a little longer than the breath in.
+
+[ic-pre-3]
+Breathe gently. These are slow breaths, not big ones. If you ever feel light headed, simply return to your normal breathing, and join in again when you are ready.
+
+[ic-warm-1]
+Let us begin. Follow the wind. In as it rises. And out as it settles.
+
+[ic-warm-2]
+Good. Now the wind will slow down a little. Stay with it, smooth and easy.
+
+[ic-b1-1]
+You can let your eyes close. Let the breath flow in and out without any force. I will be quiet now, and let you breathe.
+
+# From here the voice softens and slows: the meditation proper.
+# voice: af_heart*0.65+af_nicole*0.35
+# speed: 0.9
+# gap: 1.0
+# soft: on
+
+[ic-b1-2]
+You are doing well. If your mind has wandered, simply come back to the sound of the wind. Soft belly. Relaxed shoulders.
+
+[ic-heart-1]
+As you keep breathing, bring your attention to the center of your chest. Imagine the breath flowing in and out through this place, around your heart.
+
+[ic-heart-2]
+Now, if you like, think of someone or something you appreciate. A person, a pet, a place you love. You do not need to think about it very hard. Just let the feeling of appreciation be here, as you breathe.
+
+[ic-heart-3]
+Keep breathing through the center of your chest. Steady, and smooth. Let that feeling of care settle in.
+
+[ic-b2-1]
+A few more quiet breaths now. In with the rising wind. Out as it settles.
+
+[ic-ret-1]
+The wind is quieting now. Let your breathing return to its natural rhythm. Notice how you feel. Perhaps a little steadier. A little clearer.
+
+[ic-ret-2]
+You can come back to this steady rhythm any time today, with just a few slow breaths.
+
+# Back to the clear voice to finish alert.
+# voice: af_heart
+# speed: 0.97
+# gap: 0.5
+# soft: off
+
+[ic-em-1]
+Now take a fuller breath in, and stretch gently. Feel your feet on the floor.
+
+[ic-em-2]
+Open your eyes, and look around the room. You are awake, alert, and steady. Ready for whatever comes next.

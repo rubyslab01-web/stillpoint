@@ -1,0 +1,306 @@
+{
+  "id": "qs-breathe-free",
+  "module": "quit-smoking",
+  "title": "Breathe Free",
+  "subtitle": "Full hypnosis session for becoming smoke-free",
+  "kind": "main",
+  "awake": true,
+  "carrierHz": 220,
+  "fadeInSeconds": 6,
+  "fadeOutSeconds": 8,
+  "noise": "brown",
+  "ambient": "warmPad",
+  "isochronicOffsetDb": -4,
+  "ducking": {
+    "amountDb": 6,
+    "attackSeconds": 0.6,
+    "releaseSeconds": 2.0,
+    "leadSeconds": 0.4
+  },
+  "phases": [
+    {
+      "id": "settle",
+      "name": "Settling in",
+      "beatHz": 10,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -32,
+        "noise": -14,
+        "ambient": -24,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 7,
+      "segments": [
+        {
+          "id": "qs-free-pre-1",
+          "pauseAfter": 4
+        },
+        {
+          "id": "qs-free-pre-2",
+          "pauseAfter": 6
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "induction",
+      "name": "Relaxing",
+      "beatHz": 6,
+      "beatGlideSeconds": 150,
+      "levels": {
+        "beats": -32,
+        "noise": -14,
+        "ambient": -24,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "qs-free-ind-1",
+          "pauseAfter": 8
+        },
+        {
+          "id": "qs-free-ind-2",
+          "pauseAfter": 8
+        },
+        {
+          "id": "qs-free-ind-3",
+          "pauseAfter": 10
+        },
+        {
+          "id": "qs-free-ind-4",
+          "pauseAfter": 10
+        },
+        {
+          "id": "qs-free-ind-5",
+          "pauseAfter": 10
+        },
+        {
+          "id": "qs-free-ind-6",
+          "pauseAfter": 12
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "deepening",
+      "name": "Deepening",
+      "beatHz": 6,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -32,
+        "noise": -15,
+        "ambient": -24,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "qs-free-deep-1",
+          "pauseAfter": 6
+        },
+        {
+          "id": "qs-free-deep-2",
+          "pauseAfter": 9
+        },
+        {
+          "id": "qs-free-deep-3",
+          "pauseAfter": 15
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "suggestion",
+      "name": "New patterns",
+      "beatHz": 7.5,
+      "beatGlideSeconds": 90,
+      "levels": {
+        "beats": -32,
+        "noise": -15,
+        "ambient": -24,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "qs-free-sug-1",
+          "pauseAfter": 8
+        },
+        {
+          "id": "qs-free-sug-2",
+          "pauseAfter": 9
+        },
+        {
+          "id": "qs-free-sug-3",
+          "pauseAfter": 10
+        },
+        {
+          "id": "qs-free-sug-4",
+          "pauseAfter": 11
+        },
+        {
+          "id": "qs-free-sug-5",
+          "pauseAfter": 9
+        },
+        {
+          "id": "qs-free-sug-6",
+          "pauseAfter": 11
+        },
+        {
+          "id": "qs-free-sug-7",
+          "pauseAfter": 13
+        },
+        {
+          "id": "qs-free-sug-8",
+          "pauseAfter": 12
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "rehearsal",
+      "name": "Rehearsal",
+      "beatHz": 7.5,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -32,
+        "noise": -15,
+        "ambient": -24,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "qs-free-reh-1",
+          "pauseAfter": 14
+        },
+        {
+          "id": "qs-free-reh-2",
+          "pauseAfter": 14
+        },
+        {
+          "id": "qs-free-reh-3",
+          "pauseAfter": 14
+        },
+        {
+          "id": "qs-free-reh-4",
+          "pauseAfter": 14
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "strengthen",
+      "name": "Strengthening",
+      "beatHz": 7.5,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -32,
+        "noise": -15,
+        "ambient": -24,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "qs-free-ego-1",
+          "pauseAfter": 9
+        },
+        {
+          "id": "qs-free-ego-2",
+          "pauseAfter": 9
+        },
+        {
+          "id": "qs-free-ego-3",
+          "pauseAfter": 12
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "emergence",
+      "name": "Waking up",
+      "beatHz": 14,
+      "beatGlideSeconds": 50,
+      "levels": {
+        "beats": -30,
+        "noise": -14,
+        "ambient": -22,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 30,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "qs-free-em-1",
+          "pauseAfter": 3
+        },
+        {
+          "id": "qs-free-em-2",
+          "pauseAfter": 3
+        },
+        {
+          "id": "qs-free-em-3",
+          "pauseAfter": 2
+        }
+      ],
+      "tailSeconds": 10,
+      "minDurationSeconds": 0
+    }
+  ],
+  "ratings": [
+    {
+      "id": "craving",
+      "question": "How strong is your urge to smoke right now?",
+      "minLabel": "None",
+      "maxLabel": "Overwhelming",
+      "range": [
+        0,
+        10
+      ],
+      "before": true,
+      "after": true,
+      "higherIsBetter": false
+    },
+    {
+      "id": "calm",
+      "question": "How calm do you feel?",
+      "minLabel": "Tense",
+      "maxLabel": "Very calm",
+      "range": [
+        0,
+        10
+      ],
+      "before": true,
+      "after": true,
+      "higherIsBetter": true
+    },
+    {
+      "id": "confidence",
+      "question": "How confident are you that you can stay smoke-free today?",
+      "minLabel": "Not at all",
+      "maxLabel": "Completely",
+      "range": [
+        0,
+        10
+      ],
+      "before": false,
+      "after": true,
+      "higherIsBetter": true
+    }
+  ],
+  "sortOrder": 0
+}

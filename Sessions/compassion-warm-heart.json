@@ -1,0 +1,300 @@
+{
+  "id": "compassion-warm-heart",
+  "module": "loving-compassion",
+  "title": "Warm Heart",
+  "subtitle": "Loving-kindness for someone you love, yourself, and everyone else",
+  "kind": "main",
+  "awake": true,
+  "carrierHz": 220,
+  "fadeInSeconds": 6,
+  "fadeOutSeconds": 8,
+  "noise": "brown",
+  "ambient": "warmPad",
+  "isochronicOffsetDb": -4,
+  "ducking": {
+    "amountDb": 6,
+    "attackSeconds": 0.6,
+    "releaseSeconds": 2.0,
+    "leadSeconds": 0.4
+  },
+  "phases": [
+    {
+      "id": "settle",
+      "name": "Settling in",
+      "beatHz": 10,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -34,
+        "noise": -16,
+        "ambient": -22,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 6,
+      "segments": [
+        {
+          "id": "lc-pre-1",
+          "pauseAfter": 5
+        },
+        {
+          "id": "lc-pre-2",
+          "pauseAfter": 6
+        },
+        {
+          "id": "lc-ind-1",
+          "pauseAfter": 7
+        },
+        {
+          "id": "lc-ind-2",
+          "pauseAfter": 7
+        },
+        {
+          "id": "lc-ind-3",
+          "pauseAfter": 10
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "warmth",
+      "name": "Warm light",
+      "beatHz": 7,
+      "beatGlideSeconds": 75,
+      "levels": {
+        "beats": -34,
+        "noise": -16,
+        "ambient": -22,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "lc-deep-1",
+          "pauseAfter": 10
+        },
+        {
+          "id": "lc-deep-2",
+          "pauseAfter": 14
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "loved",
+      "name": "Someone you love",
+      "beatHz": 7,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -34,
+        "noise": -16,
+        "ambient": -22,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "lc-loved-1",
+          "pauseAfter": 20
+        },
+        {
+          "id": "lc-loved-2",
+          "pauseAfter": 6
+        },
+        {
+          "id": "lc-loved-3",
+          "pauseAfter": 12
+        },
+        {
+          "id": "lc-loved-4",
+          "pauseAfter": 12
+        },
+        {
+          "id": "lc-loved-5",
+          "pauseAfter": 12
+        },
+        {
+          "id": "lc-loved-6",
+          "pauseAfter": 14
+        },
+        {
+          "id": "lc-loved-7",
+          "pauseAfter": 28
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "self",
+      "name": "Yourself",
+      "beatHz": 7,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -34,
+        "noise": -16,
+        "ambient": -22,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "lc-self-1",
+          "pauseAfter": 12
+        },
+        {
+          "id": "lc-self-2",
+          "pauseAfter": 9
+        },
+        {
+          "id": "lc-self-3",
+          "pauseAfter": 12
+        },
+        {
+          "id": "lc-self-4",
+          "pauseAfter": 12
+        },
+        {
+          "id": "lc-self-5",
+          "pauseAfter": 12
+        },
+        {
+          "id": "lc-self-6",
+          "pauseAfter": 14
+        },
+        {
+          "id": "lc-self-7",
+          "pauseAfter": 28
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "others",
+      "name": "Everyone",
+      "beatHz": 10,
+      "beatGlideSeconds": 60,
+      "levels": {
+        "beats": -34,
+        "noise": -16,
+        "ambient": -22,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "lc-neutral-1",
+          "pauseAfter": 15
+        },
+        {
+          "id": "lc-neutral-2",
+          "pauseAfter": 12
+        },
+        {
+          "id": "lc-neutral-3",
+          "pauseAfter": 16
+        },
+        {
+          "id": "lc-all-1",
+          "pauseAfter": 12
+        },
+        {
+          "id": "lc-all-2",
+          "pauseAfter": 12
+        },
+        {
+          "id": "lc-all-3",
+          "pauseAfter": 18
+        },
+        {
+          "id": "lc-rest-1",
+          "pauseAfter": 28
+        },
+        {
+          "id": "lc-rest-2",
+          "pauseAfter": 12
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "emergence",
+      "name": "Waking up",
+      "beatHz": 14,
+      "beatGlideSeconds": 40,
+      "levels": {
+        "beats": -32,
+        "noise": -15,
+        "ambient": -22,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "lc-em-1",
+          "pauseAfter": 5
+        },
+        {
+          "id": "lc-em-2",
+          "pauseAfter": 5
+        },
+        {
+          "id": "lc-em-3",
+          "pauseAfter": 0
+        }
+      ],
+      "tailSeconds": 10,
+      "minDurationSeconds": 0
+    }
+  ],
+  "ratings": [
+    {
+      "id": "mood",
+      "question": "How is your mood right now?",
+      "minLabel": "Very low",
+      "maxLabel": "Very good",
+      "range": [
+        0,
+        10
+      ],
+      "before": true,
+      "after": true,
+      "higherIsBetter": true
+    },
+    {
+      "id": "connection",
+      "question": "How connected do you feel to other people?",
+      "minLabel": "Isolated",
+      "maxLabel": "Deeply connected",
+      "range": [
+        0,
+        10
+      ],
+      "before": true,
+      "after": true,
+      "higherIsBetter": true
+    },
+    {
+      "id": "selfkind",
+      "question": "How kind do you feel toward yourself?",
+      "minLabel": "Harsh",
+      "maxLabel": "Very kind",
+      "range": [
+        0,
+        10
+      ],
+      "before": true,
+      "after": true,
+      "higherIsBetter": true
+    }
+  ],
+  "sortOrder": 0
+}

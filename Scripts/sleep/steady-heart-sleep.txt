@@ -1,0 +1,83 @@
+# Sleep - "Steady Heart for Sleep" (~16 min of voice: paced breathing with the wind, a heart
+# focus, then sleep hypnosis that drifts into delta beats). No emergence: the voice simply stops.
+# voice: af_heart*0.7+af_nicole*0.3
+# speed: 0.93
+# gap: 0.8
+# soft: on
+
+[shs-pre-1]
+Welcome. This is a breathing practice to steady your heart, and then to carry you gently into sleep. Lie down, and let your body be comfortable. Let your arms rest beside you.
+
+[shs-pre-2]
+In a moment you will hear the wind moving through the trees. As the wind rises, breathe in through your nose. As it settles, breathe out, slowly. The breath out is a little longer than the breath in.
+
+[shs-pre-3]
+These are gentle breaths, not big ones. If you ever feel light headed, simply breathe normally, and let the wind carry on without you.
+
+[shs-warm-1]
+Let us begin. In, as the wind rises. And out, as it settles.
+
+[shs-warm-2]
+Good. Now the wind slows a little more. Smooth, and easy.
+
+# The meditation proper: softer and slower.
+# voice: af_heart*0.6+af_nicole*0.4
+# speed: 0.9
+# gap: 1.1
+
+[shs-b-1]
+You can let your eyes close. Let each breath flow in and out without any effort. I will be quiet now, and let you breathe with the wind.
+
+[shs-b-2]
+You are doing well. If your mind has wandered, simply come back to the sound of the wind. Soft belly. Soft shoulders. Soft face.
+
+[shs-heart-1]
+As you keep breathing, let your attention rest in the center of your chest. Imagine each breath flowing in and out, gently, around your heart.
+
+[shs-heart-2]
+And now, if you like, think of someone you care for. Or a place where you feel safe. There is nothing to do. Just let a little warmth be here, as you breathe.
+
+[shs-heart-3]
+Let that warmth spread. Through your chest. Into your shoulders. All the way down your arms, and into your hands.
+
+[shs-rel-1]
+Now you can let the breathing go. Let the wind drift on without you, and let your breath find its own slow, sleepy rhythm.
+
+[shs-deep-1]
+Your body is growing heavy now. Your legs are heavy, and warm, sinking down into the bed. Your arms are heavy. Your whole body, resting.
+
+[shs-deep-2]
+Imagine a single leaf, high in the trees, letting go of its branch. Drifting down, slowly, turning in the soft air. Down, and down.
+
+[shs-deep-3]
+With every breath out, you drift a little deeper, like that leaf. Down through the quiet forest. Deeper, and deeper.
+
+[shs-deep-4]
+Ten. Drifting down. Nine. Eight. Deeper still. Seven. Six. Five. Softer and heavier. Four. Three. Two. One. Resting on the soft forest floor, deeply at rest.
+
+[shs-sug-1]
+Here, in this stillness, sleep comes easily. You do not need to do anything. Sleep comes to you, the way night comes to the forest.
+
+[shs-sug-2]
+Tonight, you sleep deeply. Your sleep is deep, and steady, and restoring. Deeper, and deeper, all through the night.
+
+[shs-sug-3]
+Your heart is calm. Your breath is slow. Your body knows how to rest, and it rests deeply now.
+
+[shs-sug-4]
+If you stir in the night, you simply turn over, and drift straight back down. Deeper each time. Like a leaf settling, softly, to the ground.
+
+[shs-sug-5]
+Any sounds around you only carry you deeper. Every breath out takes you deeper into slow, peaceful sleep.
+
+[shs-fade-1]
+Drifting deeper now. Warm, and heavy, and safe.
+
+[shs-fade-2]
+Deeper, and deeper.
+
+[shs-fade-3]
+Nothing to do. Nowhere to be.
+
+[shs-fade-4]
+Sleeping deeply now.

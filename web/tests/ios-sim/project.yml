@@ -1,0 +1,33 @@
+# Harness for driving Mobile Safari in the iOS Simulator (lock-screen / background tests of the
+# web port). Generate with `xcodegen generate`; run via web/tests/ios-sim/run.sh.
+name: SafariLab
+options:
+  bundleIdPrefix: dev.stillpoint.lab
+  deploymentTarget:
+    iOS: "18.0"
+targets:
+  Host:
+    type: application
+    platform: iOS
+    sources: [Host]
+    settings:
+      GENERATE_INFOPLIST_FILE: YES
+      INFOPLIST_KEY_UILaunchScreen_Generation: YES
+      CODE_SIGNING_ALLOWED: NO
+  UITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [UITests]
+    dependencies:
+      - target: Host
+    settings:
+      GENERATE_INFOPLIST_FILE: YES
+      TEST_TARGET_NAME: Host
+      CODE_SIGNING_ALLOWED: NO
+schemes:
+  UITests:
+    build:
+      targets:
+        UITests: all
+    test:
+      targets: [UITests]

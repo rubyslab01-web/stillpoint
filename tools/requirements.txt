@@ -1,0 +1,8 @@
+kokoro>=0.9
+misaki[en]
+soundfile
+numpy
+scipy
+pyloudnorm
+openai-whisper
+jiwer

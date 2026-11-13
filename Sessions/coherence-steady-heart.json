@@ -1,0 +1,272 @@
+{
+  "id": "coherence-steady-heart",
+  "module": "inner-coherence",
+  "title": "Steady Heart",
+  "subtitle": "Breathe with the wind in a forest, about six breaths a minute",
+  "kind": "main",
+  "awake": true,
+  "carrierHz": 220,
+  "fadeInSeconds": 6,
+  "fadeOutSeconds": 8,
+  "noise": "brown",
+  "ambient": "forest",
+  "isochronicOffsetDb": -4,
+  "ducking": {
+    "amountDb": 5,
+    "attackSeconds": 0.4,
+    "releaseSeconds": 1.5,
+    "leadSeconds": 0.3
+  },
+  "phases": [
+    {
+      "id": "orient",
+      "name": "Getting ready",
+      "beatHz": 10,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -39,
+        "noise": -22,
+        "ambient": -16,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 4,
+      "segments": [
+        {
+          "id": "ic-pre-1",
+          "pauseAfter": 3
+        },
+        {
+          "id": "ic-pre-2",
+          "pauseAfter": 3
+        },
+        {
+          "id": "ic-pre-3",
+          "pauseAfter": 3
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "warmup",
+      "name": "Warm-up breathing",
+      "beatHz": 10,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -39,
+        "noise": -22,
+        "ambient": -16,
+        "pacer": -13
+      },
+      "levelGlideSeconds": 3,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "ic-warm-1",
+          "pauseAfter": 42
+        },
+        {
+          "id": "ic-warm-2",
+          "pauseAfter": 4
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0,
+      "pacer": {
+        "breathsPerMinute": 7.5,
+        "inhaleFraction": 0.4,
+        "lowHz": 174.61,
+        "highHz": 261.63,
+        "sound": "wind"
+      }
+    },
+    {
+      "id": "breathe-1",
+      "name": "Breathing",
+      "beatHz": 10,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -39,
+        "noise": -22,
+        "ambient": -16,
+        "pacer": -13
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "ic-b1-1",
+          "pauseAfter": 110
+        },
+        {
+          "id": "ic-b1-2",
+          "pauseAfter": 80
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0,
+      "pacer": {
+        "breathsPerMinute": 6,
+        "inhaleFraction": 0.4,
+        "lowHz": 174.61,
+        "highHz": 261.63,
+        "sound": "wind"
+      }
+    },
+    {
+      "id": "heart",
+      "name": "Heart focus",
+      "beatHz": 10,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -39,
+        "noise": -22,
+        "ambient": -16,
+        "pacer": -13
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "ic-heart-1",
+          "pauseAfter": 24
+        },
+        {
+          "id": "ic-heart-2",
+          "pauseAfter": 44
+        },
+        {
+          "id": "ic-heart-3",
+          "pauseAfter": 56
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0,
+      "pacer": {
+        "breathsPerMinute": 6,
+        "inhaleFraction": 0.4,
+        "lowHz": 174.61,
+        "highHz": 261.63,
+        "sound": "wind"
+      }
+    },
+    {
+      "id": "breathe-2",
+      "name": "Breathing",
+      "beatHz": 10,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -39,
+        "noise": -22,
+        "ambient": -16,
+        "pacer": -13
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "ic-b2-1",
+          "pauseAfter": 96
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0,
+      "pacer": {
+        "breathsPerMinute": 6,
+        "inhaleFraction": 0.4,
+        "lowHz": 174.61,
+        "highHz": 261.63,
+        "sound": "wind"
+      }
+    },
+    {
+      "id": "return",
+      "name": "Natural breathing",
+      "beatHz": 10,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -39,
+        "noise": -22,
+        "ambient": -16,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 10,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "ic-ret-1",
+          "pauseAfter": 12
+        },
+        {
+          "id": "ic-ret-2",
+          "pauseAfter": 6
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0,
+      "pacer": {
+        "breathsPerMinute": 6,
+        "inhaleFraction": 0.4,
+        "lowHz": 174.61,
+        "highHz": 261.63,
+        "sound": "wind"
+      }
+    },
+    {
+      "id": "emergence",
+      "name": "Alert",
+      "beatHz": 14,
+      "beatGlideSeconds": 30,
+      "levels": {
+        "beats": -36,
+        "noise": -20,
+        "ambient": -18,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 10,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "ic-em-1",
+          "pauseAfter": 6
+        },
+        {
+          "id": "ic-em-2",
+          "pauseAfter": 0
+        }
+      ],
+      "tailSeconds": 8,
+      "minDurationSeconds": 0
+    }
+  ],
+  "ratings": [
+    {
+      "id": "calm",
+      "question": "How calm do you feel?",
+      "minLabel": "Tense",
+      "maxLabel": "Very calm",
+      "range": [
+        0,
+        10
+      ],
+      "before": true,
+      "after": true,
+      "higherIsBetter": true
+    },
+    {
+      "id": "steady",
+      "question": "How steady and clear does your mind feel?",
+      "minLabel": "Scattered",
+      "maxLabel": "Very steady",
+      "range": [
+        0,
+        10
+      ],
+      "before": true,
+      "after": true,
+      "higherIsBetter": true
+    }
+  ],
+  "sortOrder": 0
+}

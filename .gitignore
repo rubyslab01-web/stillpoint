@@ -1,0 +1,18 @@
+.build/
+tools/.venv/
+tools/cache/
+tools/out/
+.DS_Store
+xcuserdata/
+DerivedData/
+# Web port: generated audio, static build, local certificates, diagnostics, test harness project
+web/audio/
+web/dist/
+web/.certs/
+web/.diag*.log
+web/tests/ios-sim/*.xcodeproj
+# Generated or large local-only folders
+build/
+previews/
+*.xcresult
+tools/.venv/

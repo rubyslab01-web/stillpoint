@@ -1,0 +1,60 @@
+# XcodeGen project definition. Regenerate Stillpoint.xcodeproj with:  xcodegen generate
+name: Stillpoint
+options:
+  bundleIdPrefix: com.stillpoint
+  deploymentTarget:
+    iOS: "18.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: ""   # set your Apple Developer team here, or in Xcode › Signing & Capabilities
+packages:
+  EntrainmentKit:
+    path: Packages/EntrainmentKit
+targets:
+  Stillpoint:
+    type: application
+    platform: iOS
+    sources:
+      - path: App/Sources
+      - path: App/Resources/Assets.xcassets
+      # Folder references: copied into the bundle as "Sessions/" and "Narration/" exactly as they are,
+      # so new session or audio files are picked up without touching the project.
+      - path: Sessions
+        type: folder
+        buildPhase: resources
+      - path: App/Resources/Narration
+        type: folder
+        buildPhase: resources
+    dependencies:
+      - package: EntrainmentKit
+        product: HypnosisAppCore
+      - package: EntrainmentKit
+        product: EntrainmentKit
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.stillpoint.hypnosis
+        PRODUCT_NAME: Stillpoint
+        INFOPLIST_FILE: App/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGN_ENTITLEMENTS: App/Stillpoint.entitlements
+        CODE_SIGN_STYLE: Automatic
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        TARGETED_DEVICE_FAMILY: "1"
+        SUPPORTS_MACCATALYST: NO
+        ENABLE_PREVIEWS: YES
+schemes:
+  Stillpoint:
+    build:
+      targets:
+        Stillpoint: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - package: EntrainmentKit/EntrainmentKitTests

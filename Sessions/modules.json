@@ -1,0 +1,87 @@
+{
+  "modules": [
+    {
+      "id": "sleep",
+      "title": "Sleep",
+      "tagline": "Drift into deeper sleep",
+      "icon": "moon.stars.fill",
+      "colorHex": "#5B6BD6",
+      "awake": false,
+      "primaryRating": "quality",
+      "showCrisisResources": false,
+      "showCessationSupport": false,
+      "about": "Two ways in. Deep Sleep is a soft hypnosis for deeper sleep. Steady Heart for Sleep starts with slow breathing to the sound of wind in a forest, then drifts into sleep suggestions. In both, the voice simply stops and the beats fade out by 90 minutes. You can keep a quiet noise bed going through the night.",
+      "honesty": "In studies, sleep suggestions helped mainly people who respond easily to hypnosis, and mostly early in the night. Evidence that beats change sleep is mixed. Self-experiment nights help you see what works for you.",
+      "cautions": [
+        "Keep the volume low for sleeping.",
+        "If you have ongoing trouble sleeping, talk to a doctor. This is not a treatment for insomnia."
+      ]
+    },
+    {
+      "id": "quit-smoking",
+      "title": "Quit Smoking",
+      "tagline": "Breathe free, one urge at a time",
+      "icon": "wind",
+      "colorHex": "#2FA39A",
+      "awake": true,
+      "primaryRating": "craving",
+      "showCrisisResources": true,
+      "showCessationSupport": true,
+      "about": "One full hypnosis session to build your identity as someone who breathes free, plus short rescue sessions to open the moment a craving hits.",
+      "honesty": "Hypnosis appears to be about as helpful as other kinds of behavioural support, and may work best as an add-on. Quitting is most likely to succeed when you combine support like this with proven aids such as nicotine replacement or prescription medication, and help from a doctor or quit line.",
+      "cautions": [
+        "Use this alongside proven quitting methods and medical support, never instead of them.",
+        "If you are driving when a craving hits, pull over before starting a session."
+      ]
+    },
+    {
+      "id": "gratitude",
+      "title": "Gratitude",
+      "tagline": "Notice what is already good",
+      "icon": "sun.max.fill",
+      "colorHex": "#E0A12B",
+      "awake": true,
+      "primaryRating": "mood",
+      "showCrisisResources": true,
+      "showCessationSupport": false,
+      "about": "A short guided practice: savour one good moment, thank one person, and notice one thing you rely on. Two or three times a week works better than every day.",
+      "honesty": "Gratitude practices give a real but small lift in mood on average. They are not a treatment for depression or anxiety.",
+      "cautions": [
+        "If nothing good comes to mind, that is okay. Gratitude does not mean pretending things are fine."
+      ]
+    },
+    {
+      "id": "inner-coherence",
+      "title": "Inner Coherence",
+      "tagline": "Steady your breath and heart",
+      "icon": "waveform.path.ecg",
+      "colorHex": "#D9608C",
+      "awake": true,
+      "primaryRating": "calm",
+      "showCrisisResources": true,
+      "showCessationSupport": false,
+      "about": "Slow breathing at about six breaths a minute, guided by the wind in a forest: it rises as you breathe in and settles as you breathe out, with a brief heart-focused pause.",
+      "honesty": "Slow paced breathing reliably raises heart rate variability while you do it, and studies show moderate reductions in stress. The breathing is the active part; the beats are a background layer.",
+      "cautions": [
+        "Breathe gently, not deeply. If you feel light-headed, return to normal breathing.",
+        "Check with a doctor first if you have a heart or lung condition or are pregnant."
+      ]
+    },
+    {
+      "id": "loving-compassion",
+      "title": "Loving Compassion",
+      "tagline": "Kindness for others and yourself",
+      "icon": "heart.fill",
+      "colorHex": "#C8553D",
+      "awake": true,
+      "primaryRating": "connection",
+      "showCrisisResources": true,
+      "showCessationSupport": false,
+      "about": "A loving-kindness practice that offers good wishes to someone you love, to yourself, to a stranger, and to everyone.",
+      "honesty": "Loving-kindness practice has moderate research support for warmer mood and self-compassion. Much of that research compared it with doing nothing, so some of the benefit may be general relaxation.",
+      "cautions": [
+        "Turning kindness toward yourself can bring up sadness or old pain. That is common. You can open your eyes and stop at any time."
+      ]
+    }
+  ]
+}

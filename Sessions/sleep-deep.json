@@ -1,0 +1,306 @@
+{
+  "id": "sleep-deep",
+  "module": "sleep",
+  "title": "Deep Sleep",
+  "subtitle": "Hypnosis for deep sleep, then slow delta beats that fade by 90 minutes",
+  "kind": "main",
+  "awake": false,
+  "carrierHz": 240,
+  "fadeInSeconds": 10,
+  "fadeOutSeconds": 60,
+  "noise": "brown",
+  "ambient": "deepDrone",
+  "isochronicOffsetDb": -6,
+  "ducking": {
+    "amountDb": 5,
+    "attackSeconds": 1,
+    "releaseSeconds": 4,
+    "leadSeconds": 0.6
+  },
+  "phases": [
+    {
+      "id": "settle",
+      "name": "Settling",
+      "beatHz": 10,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -34,
+        "noise": -16,
+        "ambient": -28,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 10,
+      "segments": [
+        {
+          "id": "sl-pre-1",
+          "pauseAfter": 9
+        },
+        {
+          "id": "sl-pre-2",
+          "pauseAfter": 11
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "induction",
+      "name": "Relaxing",
+      "beatHz": 6,
+      "beatGlideSeconds": 180,
+      "levels": {
+        "beats": -34,
+        "noise": -16,
+        "ambient": -28,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "sl-ind-1",
+          "pauseAfter": 11
+        },
+        {
+          "id": "sl-ind-2",
+          "pauseAfter": 12
+        },
+        {
+          "id": "sl-ind-3",
+          "pauseAfter": 15
+        },
+        {
+          "id": "sl-ind-4",
+          "pauseAfter": 15
+        },
+        {
+          "id": "sl-ind-5",
+          "pauseAfter": 15
+        },
+        {
+          "id": "sl-ind-6",
+          "pauseAfter": 15
+        },
+        {
+          "id": "sl-ind-7",
+          "pauseAfter": 18
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "deepening",
+      "name": "Sinking deeper",
+      "beatHz": 6,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -34,
+        "noise": -16,
+        "ambient": -28,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "sl-deep-1",
+          "pauseAfter": 16
+        },
+        {
+          "id": "sl-deep-2",
+          "pauseAfter": 17
+        },
+        {
+          "id": "sl-deep-3",
+          "pauseAfter": 19
+        },
+        {
+          "id": "sl-deep-4",
+          "pauseAfter": 12
+        },
+        {
+          "id": "sl-deep-5",
+          "pauseAfter": 16
+        },
+        {
+          "id": "sl-deep-6",
+          "pauseAfter": 24
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "suggestion",
+      "name": "Deep sleep",
+      "beatHz": 6,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -34,
+        "noise": -16,
+        "ambient": -28,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "sl-sug-1",
+          "pauseAfter": 19
+        },
+        {
+          "id": "sl-sug-2",
+          "pauseAfter": 21
+        },
+        {
+          "id": "sl-sug-3",
+          "pauseAfter": 22
+        },
+        {
+          "id": "sl-sug-4",
+          "pauseAfter": 22
+        },
+        {
+          "id": "sl-sug-5",
+          "pauseAfter": 24
+        },
+        {
+          "id": "sl-sug-6",
+          "pauseAfter": 29
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "fading",
+      "name": "Drifting off",
+      "beatHz": 6,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -34,
+        "noise": -16,
+        "ambient": -30,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "sl-fade-1",
+          "pauseAfter": 29
+        },
+        {
+          "id": "sl-fade-2",
+          "pauseAfter": 36
+        },
+        {
+          "id": "sl-fade-3",
+          "pauseAfter": 44
+        },
+        {
+          "id": "sl-fade-4",
+          "pauseAfter": 51
+        },
+        {
+          "id": "sl-fade-5",
+          "pauseAfter": 30
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "delta",
+      "name": "Delta",
+      "beatHz": 3,
+      "beatGlideSeconds": 300,
+      "levels": {
+        "beats": -34,
+        "noise": -16,
+        "ambient": -96,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 240,
+      "leadInSeconds": 0,
+      "segments": [],
+      "tailSeconds": 0,
+      "minDurationSeconds": 3689.815
+    },
+    {
+      "id": "beat-fade",
+      "name": "Beats fading",
+      "beatHz": 3,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -96,
+        "noise": -16,
+        "ambient": -96,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 840,
+      "leadInSeconds": 0,
+      "segments": [],
+      "tailSeconds": 0,
+      "minDurationSeconds": 900
+    }
+  ],
+  "ratings": [
+    {
+      "id": "tension",
+      "question": "How wound up do you feel right now?",
+      "minLabel": "Completely relaxed",
+      "maxLabel": "Very wound up",
+      "range": [
+        0,
+        10
+      ],
+      "before": true,
+      "after": false,
+      "higherIsBetter": false
+    },
+    {
+      "id": "onset",
+      "question": "How quickly did you fall asleep last night?",
+      "minLabel": "Very slowly",
+      "maxLabel": "Very quickly",
+      "range": [
+        0,
+        10
+      ],
+      "before": false,
+      "after": true,
+      "higherIsBetter": true,
+      "timing": "nextMorning"
+    },
+    {
+      "id": "quality",
+      "question": "How well did you sleep?",
+      "minLabel": "Very badly",
+      "maxLabel": "Very well",
+      "range": [
+        0,
+        10
+      ],
+      "before": false,
+      "after": true,
+      "higherIsBetter": true,
+      "timing": "nextMorning"
+    }
+  ],
+  "sortOrder": 0,
+  "noiseBed": {
+    "optionsMinutes": [
+      0,
+      120,
+      240,
+      480
+    ],
+    "defaultMinutes": 0,
+    "levelDb": -20,
+    "crossfadeSeconds": 120,
+    "fadeOutSeconds": 60
+  }
+}

@@ -1,0 +1,83 @@
+# Sleep - "Deep Sleep" (~14 min of voice, then delta beats and optional noise bed)
+# voice: af_heart*0.65+af_nicole*0.35
+# speed: 0.9
+# gap: 1.1
+# soft: on
+
+[sl-pre-1]
+It is time to rest now. Settle into your bed, and let your body find the position it likes best. There is nothing more to do today. You can simply listen, or let my voice drift into the background.
+
+[sl-pre-2]
+If you fall asleep before I finish, that is exactly right. You do not need to follow every word.
+
+[sl-ind-1]
+Take a slow, comfortable breath in. And let it go, with a long, soft sigh.
+
+[sl-ind-2]
+Once more, breathe in gently. And breathe out, letting the mattress take all of your weight.
+
+[sl-ind-3]
+Now let your breathing settle into its own slow rhythm. With every breath out, your body grows a little heavier, and a little warmer.
+
+[sl-ind-4]
+Feel your forehead become smooth. Your eyelids are heavy and still. Your jaw loosens, and your tongue rests softly in your mouth.
+
+[sl-ind-5]
+Your shoulders sink into the bed. Your arms grow heavy, all the way down to your hands. Your fingers are loose and still.
+
+[sl-ind-6]
+Your back lets go, one small muscle at a time. Your chest and your stomach rise and fall, slowly, without any effort at all.
+
+[sl-ind-7]
+Your hips are heavy. Your legs are heavy. That warm heaviness flows down through your knees, your ankles, to the very tips of your toes. Your whole body is sinking into rest.
+
+[sl-deep-1]
+Now imagine that you are floating on calm, warm water, in the quiet of the evening. The water holds you completely. You are perfectly safe.
+
+[sl-deep-2]
+And slowly, comfortably, you begin to sink beneath the surface, where everything is quiet and still. You can breathe easily here. With every breath, you drift a little deeper.
+
+[sl-deep-3]
+Deeper, and deeper. The sounds of the day fade far above you. Down here, there is only soft, blue stillness.
+
+[sl-deep-4]
+I will count slowly from ten down to one. With each number, you sink deeper into rest. Ten. Sinking down. Nine. Deeper and deeper. Eight. So heavy, and so calm.
+
+[sl-deep-5]
+Seven. Drifting down. Six. Deeper still. Five. Thoughts are slowing, and floating away.
+
+[sl-deep-6]
+Four. Deeper and deeper. Three. So quiet now. Two. Almost at the bottom. And one. Resting in the deepest, softest place.
+
+[sl-sug-1]
+Here, in this deep stillness, sleep comes to you easily. You do not have to make it happen. Sleep finds you, the way evening finds the sky.
+
+[sl-sug-2]
+Tonight, you sleep deeply. Your sleep is deep, and steady, and restoring. Deeper and deeper, all through the night.
+
+[sl-sug-3]
+As you sleep deeply, your body repairs itself. Your mind gently sorts through the day, and sets it down. Everything that needs your attention can wait until morning.
+
+[sl-sug-4]
+If you stir in the night, you simply turn over, and sink straight back down. Deeper each time. Sleep welcomes you back.
+
+[sl-sug-5]
+Any sounds around you only carry you deeper. Every breath out takes you deeper. Deeper and deeper into slow, peaceful sleep.
+
+[sl-sug-6]
+And when morning comes, at the right time for you, you wake feeling rested and clear. But that is a long way off. For now, there is only rest.
+
+[sl-fade-1]
+Sinking deeper now. Heavy, and warm, and safe.
+
+[sl-fade-2]
+Deeper, and deeper.
+
+[sl-fade-3]
+Nothing to do. Nowhere to be.
+
+[sl-fade-4]
+Sleeping deeply. Deeper, and deeper.
+
+[sl-fade-5]
+Letting go now. Sleep deeply.

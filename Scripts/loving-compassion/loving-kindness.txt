@@ -1,0 +1,107 @@
+# Loving Compassion - "Warm Heart" (~13 min)
+# voice: af_heart*0.65+af_nicole*0.35
+# speed: 0.9
+# gap: 0.9
+# soft: on
+
+[lc-pre-1]
+Welcome to this practice. Today we will offer kindness, first to someone you care about, then to yourself, and then outward to others. Whatever you feel, or do not feel, is fine. Your intention is enough.
+
+[lc-pre-2]
+If strong feelings come up at any time, you can always open your eyes, feel your feet on the floor, and simply rest with your breath.
+
+[lc-ind-1]
+Let your eyes close, and take a slow breath in. And let it go, a little longer on the way out.
+
+[lc-ind-2]
+Once more, breathe in gently. And breathe out, letting your face soften, and your shoulders drop.
+
+[lc-ind-3]
+Let your breathing settle into its own rhythm. Feel your body resting, supported, with nothing to do.
+
+[lc-deep-1]
+Now bring your attention to the center of your chest. Imagine a small, warm light glowing there, like a candle, or the first sun of the morning.
+
+[lc-deep-2]
+With every breath in, the light grows a little brighter. With every breath out, its warmth spreads a little further. Through your chest. Into your shoulders. Down your arms. Gentle, and steady.
+
+[lc-loved-1]
+Now, bring to mind someone it is easy to care about. A good friend. A child. A grandparent. A pet. Someone who makes you smile when you think of them. Let them appear in front of you.
+
+[lc-loved-2]
+See their face. Feel how naturally you wish them well. And silently, offer them these words.
+
+[lc-loved-3]
+May you be safe.
+
+[lc-loved-4]
+May you be happy.
+
+[lc-loved-5]
+May you be healthy.
+
+[lc-loved-6]
+May you live with ease.
+
+[lc-loved-7]
+Imagine the warm light from your chest reaching them, and see them receive it. Rest in that feeling for a moment.
+
+[lc-self-1]
+Now, turn that same kindness toward yourself. If that feels difficult, you might picture yourself as a young child. Or simply rest, and let the words wash over you.
+
+[lc-self-2]
+Like everyone, you have had hard days. Like everyone, you are doing the best you can. And like everyone, you deserve kindness.
+
+[lc-self-3]
+May I be safe.
+
+[lc-self-4]
+May I be happy.
+
+[lc-self-5]
+May I be healthy.
+
+[lc-self-6]
+May I live with ease.
+
+[lc-self-7]
+Let the warmth fill your whole body, from your head to your feet. There is nothing you have to earn. Just rest here.
+
+[lc-neutral-1]
+Now, think of someone you hardly know. Someone you passed in the street, or who served you in a shop. You do not know their story. But just like you, they want to be happy, and they have their own worries.
+
+[lc-neutral-2]
+Picture them, and offer them the same wishes. May you be safe. May you be happy.
+
+[lc-neutral-3]
+May you be healthy. May you live with ease.
+
+[lc-all-1]
+And now, let the light spread wider. To the people in your building, and on your street. To everyone in your town. Out across the country, and around the whole world. People waking up, people falling asleep. All of them, just like you, wishing to be happy.
+
+[lc-all-2]
+May all beings be safe. May all beings be happy.
+
+[lc-all-3]
+May all beings be healthy. May all beings live with ease.
+
+[lc-rest-1]
+Rest for a moment in this wide, warm feeling. You are part of it. The kindness you send out includes you too.
+
+[lc-rest-2]
+In the days ahead, you may notice moments of warmth toward the people around you, and toward yourself. A kind thought arriving on its own. Each time, the feeling grows a little more familiar.
+
+# Back to the clear voice to finish alert.
+# voice: af_heart
+# speed: 0.97
+# gap: 0.5
+# soft: off
+
+[lc-em-1]
+Now it is time to return. Let the light settle back into the center of your chest, where it stays with you.
+
+[lc-em-2]
+Take a deeper breath in. Feel energy returning to your arms and legs. Stretch your fingers and your toes.
+
+[lc-em-3]
+And open your eyes. Awake, alert, and clear, carrying this warmth with you into the rest of your day.

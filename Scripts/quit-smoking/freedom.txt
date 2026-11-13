@@ -1,0 +1,98 @@
+# Quit Smoking - main session "Breathe Free" (~20 min)
+# voice: af_heart*0.65+af_nicole*0.35
+# speed: 0.9
+# gap: 0.9
+# soft: on
+
+[qs-free-pre-1]
+Welcome. This session is here to support you as you become free from smoking. It works best alongside your quit plan, whether that includes nicotine replacement, medication, or the support of a doctor or a quit line.
+
+[qs-free-pre-2]
+Make sure you are somewhere safe and comfortable, where you can close your eyes for a while. There is nothing you have to get right. Simply listen, and let the words do the work.
+
+[qs-free-ind-1]
+Begin by taking a slow breath in through your nose. And let it go, gently, through your mouth, a little longer on the way out.
+
+[qs-free-ind-2]
+Again, breathe in, slowly and comfortably. And release, letting your shoulders drop as the air leaves.
+
+[qs-free-ind-3]
+One more time. Breathe in clean, fresh air. And as you breathe out, allow your eyes to close, if they have not closed already.
+
+[qs-free-ind-4]
+Now let your breathing find its own easy rhythm. Notice the feeling of relaxation beginning at the top of your head, smoothing your forehead, softening the small muscles around your eyes, and loosening your jaw.
+
+[qs-free-ind-5]
+That comfort flows down through your neck and shoulders, down your arms, all the way to your fingertips. Your hands may begin to feel warm, or heavy, or pleasantly light. Whatever you notice is exactly right.
+
+[qs-free-ind-6]
+Let the relaxation move through your chest, where your breath is easy and unhurried. Down through your stomach, your hips, your legs, all the way to the soles of your feet. Now your whole body is resting.
+
+[qs-free-deep-1]
+In a moment, I will count down from ten to one. With each number, you can let yourself drift a little deeper into this calm, focused state, as though walking down a gentle staircase, one easy step at a time.
+
+[qs-free-deep-2]
+Ten. Stepping down. Nine. Deeper and more comfortable. Eight. Letting go of the day. Seven. Drifting down. Six. Calm and safe.
+
+[qs-free-deep-3]
+Five, halfway down, twice as relaxed. Four. Three. So peaceful now. Two. Almost there. And one. Deeply relaxed, and wonderfully focused.
+
+[qs-free-sug-1]
+In this calm place, your mind is clear, and open to ideas that are good for you. So let these ideas settle in, as easily as breathing.
+
+[qs-free-sug-2]
+Your body is precious. It has carried you through every single day of your life. It breathes for you while you sleep. It heals you when you are hurt. And it has been waiting, patiently, for this moment.
+
+[qs-free-sug-3]
+You need your body to live. And so you choose to protect it, the way you would protect anyone you love. This is not about giving something up. This is about giving something back, to yourself.
+
+[qs-free-sug-4]
+Already, something in you is changing. You are becoming a person who breathes freely. A person whose lungs are clearing, whose heart is growing stronger, whose senses of taste and smell are waking up again. This is simply who you are now.
+
+[qs-free-sug-5]
+From time to time, an urge may still arrive. That is natural, and it is nothing to fear. An urge is only a wave. It rises, it reaches a peak, and then, every single time, it passes. Whether or not you smoke, the wave passes.
+
+[qs-free-sug-6]
+So when a wave comes, you do not need to fight it, and you do not need to obey it. You can simply notice it. You can say to yourself, there is an urge. And you can watch it rise, and crest, and fade away, while you stay steady, like someone watching the ocean from the shore.
+
+[qs-free-sug-7]
+Now, gently press the thumb and first finger of one hand together. This is your anchor. As you hold it, take one slow breath, and feel the calm you feel right now gather in that small point of touch.
+
+[qs-free-sug-8]
+Whenever you press your thumb and finger together, and take three slow breaths, this same calm returns to you. It becomes stronger every time you use it. You can relax your hand now, knowing your anchor is always with you.
+
+[qs-free-reh-1]
+Now imagine a morning in the days ahead. You wake, and you pour your coffee or your tea. In the past, this was a moment for a cigarette. But see yourself now, holding the warm cup, breathing deeply, and enjoying the taste more than you ever have. Calm, and free.
+
+[qs-free-reh-2]
+See yourself after a meal. You stand, you stretch, you take a few slow breaths, or a short walk. The old habit drifts by like a cloud, and you let it pass. You feel light, and quietly proud.
+
+[qs-free-reh-3]
+Imagine a stressful moment. Something goes wrong, and tension rises. And you notice that you press your thumb and finger together, you breathe out slowly, and the tension loosens. You handle it clearly, with a steady mind. You always could.
+
+[qs-free-reh-4]
+And picture yourself with friends, where others may be smoking. You are relaxed and comfortable. If someone offers, you smile and say, no thanks, I am good. And it feels true, because it is.
+
+[qs-free-ego-1]
+Every hour that you breathe free, your confidence grows. Each urge that you ride out makes the next one weaker, and makes you stronger. You are learning that you can trust yourself.
+
+[qs-free-ego-2]
+And if you ever slip, you treat it as information, not as failure. You simply return to your plan, with kindness, and you carry on. Nothing can take away the progress you have made.
+
+[qs-free-ego-3]
+These ideas are yours now. They will keep working quietly in the back of your mind, long after this session ends, growing stronger each time you listen.
+
+# Back to the clear voice to finish alert.
+# voice: af_heart
+# speed: 0.97
+# gap: 0.5
+# soft: off
+
+[qs-free-em-1]
+In a moment, I will count from one up to five. With each number, energy and alertness will return, and at five your eyes will open, and you will feel refreshed and clear.
+
+[qs-free-em-2]
+One. Beginning to return. Two. Feeling energy flow back into your arms and legs. Three. Taking a deeper breath, and becoming aware of the room around you.
+
+[qs-free-em-3]
+Four. Your eyes are getting ready to open, your mind is bright and clear. And five. Eyes open. Wide awake, fully alert, and feeling good. Welcome back.

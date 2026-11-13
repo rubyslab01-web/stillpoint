@@ -1,0 +1,65 @@
+# Gratitude - "Three Good Things" (~10 min)
+# voice: af_heart*0.65+af_nicole*0.35
+# speed: 0.9
+# gap: 0.9
+# soft: on
+
+[gr-pre-1]
+Welcome. For the next few minutes, we are going to slow down and notice a few good things. They do not have to be big. And if nothing comes to mind at some point, that is completely fine. Just rest, and listen.
+
+[gr-ind-1]
+Let your eyes close, and take a slow breath in. And let it go, a little longer on the way out.
+
+[gr-ind-2]
+Again, breathe in gently. And breathe out, letting your shoulders soften and your hands rest.
+
+[gr-ind-3]
+Let your breathing find its own rhythm now. Feel the weight of your body, supported. With each breath out, your mind becomes a little quieter, a little more spacious.
+
+[gr-one-1]
+Now, let your mind drift back over today, or yesterday. See if you can find one small good thing. It might be a warm drink. A moment of sunlight. A kind word. Something that went a little better than expected. Take your time. I will be quiet for a few moments while you look.
+
+[gr-one-2]
+Whatever you have found, bring it closer. Where were you? What could you see, or hear, or taste? Let the moment become vivid again, as if it is happening now.
+
+[gr-one-3]
+Notice how it feels in your body to remember this. Perhaps a little warmth, or a softening somewhere. Let yourself enjoy it for a few more breaths.
+
+[gr-two-1]
+Now, bring to mind a person who has helped you, or cared about you. It could be someone from long ago, or someone you saw this week. Let their face appear in your mind.
+
+[gr-two-2]
+Remember something they did for you. It may have cost them time, or effort, or thought. They did not have to do it. And they did.
+
+[gr-two-3]
+Silently, in your own words, thank them. Imagine that they can hear you, and notice how they might look as they receive it. I will give you a quiet moment for this.
+
+[gr-three-1]
+And now, think of one thing in your life that you rely on. Something so familiar that you rarely notice it. A place to sleep. A friend. Your eyesight. Clean water from a tap.
+
+[gr-three-2]
+For just a moment, imagine your life without it. Notice what would be missing.
+
+[gr-three-3]
+And now, come back. It is here. You have it. Let that land, as a quiet sense of good fortune.
+
+[gr-int-1]
+Being grateful does not mean pretending that everything is fine. It simply means that, alongside whatever is hard, you can also see what is good. Both can be true.
+
+[gr-int-2]
+Over the coming days, you may find that you notice small good things a little more easily. A taste. A kindness. A moment of ease. And each time, you can pause, for one breath, and take it in.
+
+# Back to the clear voice to finish alert.
+# voice: af_heart
+# speed: 0.97
+# gap: 0.5
+# soft: off
+
+[gr-em-1]
+Now it is time to return. Take a deeper breath in, and feel energy coming back into your body.
+
+[gr-em-2]
+Stretch your fingers and your toes. Let your breathing become brighter and fuller.
+
+[gr-em-3]
+And when you are ready, open your eyes. Feeling awake, alert, and quietly glad. If you like, write down one thing you noticed before you carry on with your day.

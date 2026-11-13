@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2533B43DDE99D9019BD98CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0592293A89B0DA509DCFE2F7 /* Assets.xcassets */; };
+		292513F29F626DAEDF903321 /* StillpointApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E3966B777459D6950BC015 /* StillpointApp.swift */; };
+		6CE6981F97556FA537A38128 /* HypnosisAppCore in Frameworks */ = {isa = PBXBuildFile; productRef = B997FA16848F85050B81A895 /* HypnosisAppCore */; };
+		97957D72E99950AD50A4A45C /* EntrainmentKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3D86CE8882DE4E464A2EE50F /* EntrainmentKit */; };
+		97EB2F9132B905AFEB9A4FA6 /* Narration in Resources */ = {isa = PBXBuildFile; fileRef = 7B8D075E8689C9AAE84B6946 /* Narration */; };
+		B24E6DB12A27B8E304523676 /* Sessions in Resources */ = {isa = PBXBuildFile; fileRef = 8727383FDE4F6DDBD4B6D5A4 /* Sessions */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0592293A89B0DA509DCFE2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07D38D0F2A3F70712F6DFE37 /* Stillpoint.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Stillpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2038BB21CFA609AFE2B80A /* EntrainmentKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = EntrainmentKit; path = Packages/EntrainmentKit; sourceTree = SOURCE_ROOT; };
+		7B8D075E8689C9AAE84B6946 /* Narration */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Narration; path = App/Resources/Narration; sourceTree = SOURCE_ROOT; };
+		8727383FDE4F6DDBD4B6D5A4 /* Sessions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sessions; sourceTree = SOURCE_ROOT; };
+		88E3966B777459D6950BC015 /* StillpointApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillpointApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1EB987E366101D587D4220B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE6981F97556FA537A38128 /* HypnosisAppCore in Frameworks */,
+				97957D72E99950AD50A4A45C /* EntrainmentKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A076054203CF2D61886787F /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				2C2038BB21CFA609AFE2B80A /* EntrainmentKit */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		38A488AD09A56E35FA4E1F77 = {
+			isa = PBXGroup;
+			children = (
+				8727383FDE4F6DDBD4B6D5A4 /* Sessions */,
+				55224F06139F9D6A3D1A4B12 /* App */,
+				2A076054203CF2D61886787F /* Packages */,
+				817BEE9629C6D3C4D66E3657 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55224F06139F9D6A3D1A4B12 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6E7AF40628A8B0DCB4869101 /* Resources */,
+				64A1E40636A61A4EFD56B03B /* Sources */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		64A1E40636A61A4EFD56B03B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				88E3966B777459D6950BC015 /* StillpointApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6E7AF40628A8B0DCB4869101 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0592293A89B0DA509DCFE2F7 /* Assets.xcassets */,
+				7B8D075E8689C9AAE84B6946 /* Narration */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		817BEE9629C6D3C4D66E3657 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D38D0F2A3F70712F6DFE37 /* Stillpoint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		488EA20615D9DAB5A2B62D4A /* Stillpoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C09BD30B2EECD03E41163185 /* Build configuration list for PBXNativeTarget "Stillpoint" */;
+			buildPhases = (
+				CA8EA8711E5B5D0924EDF588 /* Sources */,
+				EE9D1EDDAEA14F30E2C2F037 /* Resources */,
+				F1EB987E366101D587D4220B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stillpoint;
+			packageProductDependencies = (
+				B997FA16848F85050B81A895 /* HypnosisAppCore */,
+				3D86CE8882DE4E464A2EE50F /* EntrainmentKit */,
+			);
+			productName = Stillpoint;
+			productReference = 07D38D0F2A3F70712F6DFE37 /* Stillpoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0D39A445757CEA0C24A688B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					488EA20615D9DAB5A2B62D4A = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF1A84D059267E1C3BA462B0 /* Build configuration list for PBXProject "Stillpoint" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 38A488AD09A56E35FA4E1F77;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D584806DCF490582D37E2133 /* XCLocalSwiftPackageReference "Packages/EntrainmentKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 817BEE9629C6D3C4D66E3657 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				488EA20615D9DAB5A2B62D4A /* Stillpoint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE9D1EDDAEA14F30E2C2F037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2533B43DDE99D9019BD98CAD /* Assets.xcassets in Resources */,
+				97EB2F9132B905AFEB9A4FA6 /* Narration in Resources */,
+				B24E6DB12A27B8E304523676 /* Sessions in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA8EA8711E5B5D0924EDF588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292513F29F626DAEDF903321 /* StillpointApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		583CDC2CA22F277E828864D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/Stillpoint.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stillpoint.hypnosis;
+				PRODUCT_NAME = Stillpoint;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8CA86843AADBE7C518B74CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/Stillpoint.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stillpoint.hypnosis;
+				PRODUCT_NAME = Stillpoint;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D1C8BB7DF07190D4236A4FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D7379F40BC68839ACED891C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C09BD30B2EECD03E41163185 /* Build configuration list for PBXNativeTarget "Stillpoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA86843AADBE7C518B74CC9 /* Debug */,
+				583CDC2CA22F277E828864D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FF1A84D059267E1C3BA462B0 /* Build configuration list for PBXProject "Stillpoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7379F40BC68839ACED891C5 /* Debug */,
+				D1C8BB7DF07190D4236A4FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D584806DCF490582D37E2133 /* XCLocalSwiftPackageReference "Packages/EntrainmentKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/EntrainmentKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D86CE8882DE4E464A2EE50F /* EntrainmentKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EntrainmentKit;
+		};
+		B997FA16848F85050B81A895 /* HypnosisAppCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HypnosisAppCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D0D39A445757CEA0C24A688B /* Project object */;
+}

@@ -1,0 +1,195 @@
+{
+  "id": "gratitude-three-good-things",
+  "module": "gratitude",
+  "title": "Three Good Things",
+  "subtitle": "Savour one good moment, thank one person, notice one thing you rely on",
+  "kind": "main",
+  "awake": true,
+  "carrierHz": 220,
+  "fadeInSeconds": 6,
+  "fadeOutSeconds": 8,
+  "noise": "pink",
+  "ambient": "glow",
+  "isochronicOffsetDb": -4,
+  "ducking": {
+    "amountDb": 6,
+    "attackSeconds": 0.6,
+    "releaseSeconds": 2.0,
+    "leadSeconds": 0.4
+  },
+  "phases": [
+    {
+      "id": "settle",
+      "name": "Settling in",
+      "beatHz": 10,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -34,
+        "noise": -16,
+        "ambient": -22,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 6,
+      "segments": [
+        {
+          "id": "gr-pre-1",
+          "pauseAfter": 5
+        },
+        {
+          "id": "gr-ind-1",
+          "pauseAfter": 7
+        },
+        {
+          "id": "gr-ind-2",
+          "pauseAfter": 7
+        },
+        {
+          "id": "gr-ind-3",
+          "pauseAfter": 10
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "savour",
+      "name": "Savouring",
+      "beatHz": 7,
+      "beatGlideSeconds": 75,
+      "levels": {
+        "beats": -34,
+        "noise": -16,
+        "ambient": -22,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "gr-one-1",
+          "pauseAfter": 40
+        },
+        {
+          "id": "gr-one-2",
+          "pauseAfter": 25
+        },
+        {
+          "id": "gr-one-3",
+          "pauseAfter": 30
+        },
+        {
+          "id": "gr-two-1",
+          "pauseAfter": 15
+        },
+        {
+          "id": "gr-two-2",
+          "pauseAfter": 12
+        },
+        {
+          "id": "gr-two-3",
+          "pauseAfter": 40
+        },
+        {
+          "id": "gr-three-1",
+          "pauseAfter": 15
+        },
+        {
+          "id": "gr-three-2",
+          "pauseAfter": 15
+        },
+        {
+          "id": "gr-three-3",
+          "pauseAfter": 24
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "integrate",
+      "name": "Taking it in",
+      "beatHz": 10,
+      "beatGlideSeconds": 40,
+      "levels": {
+        "beats": -34,
+        "noise": -16,
+        "ambient": -22,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "gr-int-1",
+          "pauseAfter": 8
+        },
+        {
+          "id": "gr-int-2",
+          "pauseAfter": 10
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "emergence",
+      "name": "Waking up",
+      "beatHz": 14,
+      "beatGlideSeconds": 35,
+      "levels": {
+        "beats": -32,
+        "noise": -15,
+        "ambient": -22,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "gr-em-1",
+          "pauseAfter": 5
+        },
+        {
+          "id": "gr-em-2",
+          "pauseAfter": 5
+        },
+        {
+          "id": "gr-em-3",
+          "pauseAfter": 0
+        }
+      ],
+      "tailSeconds": 10,
+      "minDurationSeconds": 0
+    }
+  ],
+  "ratings": [
+    {
+      "id": "mood",
+      "question": "How is your mood right now?",
+      "minLabel": "Very low",
+      "maxLabel": "Very good",
+      "range": [
+        0,
+        10
+      ],
+      "before": true,
+      "after": true,
+      "higherIsBetter": true
+    },
+    {
+      "id": "content",
+      "question": "How content do you feel with your life right now?",
+      "minLabel": "Not at all",
+      "maxLabel": "Deeply",
+      "range": [
+        0,
+        10
+      ],
+      "before": true,
+      "after": true,
+      "higherIsBetter": true
+    }
+  ],
+  "sortOrder": 0
+}

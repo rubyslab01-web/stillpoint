@@ -1,0 +1,149 @@
+# Quit Smoking - rescue sessions (eyes open, alert, on demand)
+# voice: af_heart
+# speed: 0.95
+# gap: 0.5
+# soft: off
+
+# --- Breathe Through (2 min) ---
+[qs-r2-1]
+You chose this instead of smoking. That is already a win. Stay with me for two minutes.
+
+[qs-r2-2]
+Press your thumb and first finger together. Breathe in slowly through your nose.
+
+[qs-r2-3]
+And breathe out through your mouth, long and slow, like you are fogging a window.
+
+[qs-r2-4]
+Again. Breathe in.
+
+[qs-r2-5]
+And a long, slow breath out. Let your shoulders drop.
+
+[qs-r2-6]
+And once more, breathe in.
+
+[qs-r2-7]
+And all the way out.
+
+[qs-r2-8]
+This urge is a wave. It has already started to peak, and it will pass whether you smoke or not. You do not have to fight it. Just let it roll through.
+
+[qs-r2-9]
+Now squeeze both fists tight. Hold the squeeze. Feel the strength in your hands.
+
+[qs-r2-10]
+And release. Let your hands go soft.
+
+[qs-r2-11]
+The wave is passing. You chose to breathe free, and you just did. Now do one small thing: drink some water, or walk for a minute. Well done.
+
+# --- Ride the Wave (5 min) ---
+[qs-r5-1]
+You are having a craving, and you came here first. Good. For the next five minutes, we are going to ride this wave together. You can keep your eyes open.
+
+[qs-r5-2]
+Start with a slow breath in through your nose.
+
+[qs-r5-3]
+And breathe out slowly, through your mouth.
+
+[qs-r5-4]
+Once more. In.
+
+[qs-r5-5]
+And slowly out. Let your jaw and your shoulders loosen.
+
+[qs-r5-6]
+Now, get curious. Where in your body do you feel this urge? It might be in your chest, your throat, your hands, or your stomach. Just find it.
+
+[qs-r5-7]
+Notice what it actually feels like. Is it tight? Restless? Warm? Empty? You do not need to change it. Just describe it to yourself, the way a scientist would.
+
+[qs-r5-8]
+In your mind, give it a number from zero to ten. However strong it is right now is okay.
+
+[qs-r5-9]
+Now breathe around that feeling. As you breathe in, give it space. As you breathe out, let the edges of it soften.
+
+[qs-r5-10]
+Keep breathing, slow and easy. Breathe in, making room. And breathe out, softening.
+
+[qs-r5-11]
+An urge is like a wave in the ocean. It builds, it reaches a peak, and then it falls away. It always falls away. You are not the wave. You are the one watching it.
+
+[qs-r5-12]
+If it helps, press your palms together firmly in front of your chest. Push, and hold. Feel how strong you are.
+
+[qs-r5-13]
+And let go. Shake out your hands.
+
+[qs-r5-14]
+Check in with the urge again. Give it a new number. It may have dropped, or changed shape. Even if it is the same, you have just proven that you can feel it without obeying it.
+
+[qs-r5-15]
+Take one more slow breath in. Think of one reason you are quitting. Just one. Hold it in your mind.
+
+[qs-r5-16]
+And breathe out. That reason is still true, and you are still free.
+
+[qs-r5-17]
+The wave has moved through. Now change what you are doing: drink a glass of water, step outside, or message someone. You handled this. Take that with you.
+
+# --- Body Scan Reset (10 min) ---
+[qs-r10-1]
+Welcome. For the next ten minutes, we are going to move your attention slowly through your body. There is nothing to achieve. If a craving is here, it can stay in the background while we do this.
+
+[qs-r10-2]
+Sit or stand comfortably. You can keep your eyes open, with a soft gaze, or let them close if you are somewhere safe.
+
+[qs-r10-3]
+Take a slow breath in. And let it go, a little longer on the way out.
+
+[qs-r10-4]
+Bring your attention all the way down to your feet. Notice your toes, the soles of your feet, your heels. Notice where they touch the floor or your shoes. Warm or cool, heavy or light. Simply notice.
+
+[qs-r10-5]
+Move your attention up into your ankles, your calves, and your shins. You are not trying to relax them. You are only noticing what is there.
+
+[qs-r10-6]
+Now your knees, and the large muscles of your thighs. Feel the weight of your legs, supported.
+
+[qs-r10-7]
+If your mind wanders to smoking, that is perfectly normal. Notice the thought, let it be, and gently bring your attention back to your body.
+
+[qs-r10-8]
+Bring your attention to your hips and your lower back. Notice any contact with the chair, any pressure, any ease.
+
+[qs-r10-9]
+Now your stomach. Feel it rise as you breathe in, and fall as you breathe out. There is no need to control the breath. Just watch it move.
+
+[qs-r10-10]
+Move up into your chest. Notice your ribs widening and settling. Notice your heartbeat, if you can feel it. Your lungs are doing their work, and already they are beginning to clear.
+
+[qs-r10-11]
+Bring your attention to your upper back and your shoulders. So much tension gathers here. Simply notice it, and if your shoulders want to drop a little, let them.
+
+[qs-r10-12]
+Now let your attention travel down both arms. Upper arms, elbows, forearms, wrists.
+
+[qs-r10-13]
+And into your hands. Notice your palms, and each finger. These hands are free right now. Feel the air on your skin, or the surface they are resting on.
+
+[qs-r10-14]
+Move your attention to your neck and your throat. Notice the cool air passing in, and the warm air passing out.
+
+[qs-r10-15]
+Now your jaw. Your lips. Your tongue resting in your mouth. Your cheeks, your eyes, your forehead. Let your whole face be soft.
+
+[qs-r10-16]
+And now widen your attention to take in your whole body at once, from your feet to the top of your head. One whole body, breathing.
+
+[qs-r10-17]
+If the craving is still here, notice where it sits in this wider picture. It is one small sensation among many. You can carry it without acting on it, and it is already fading.
+
+[qs-r10-18]
+Take a deeper breath in, and feel energy returning. Stretch your fingers and your toes.
+
+[qs-r10-19]
+Breathe out, open your eyes fully, and look around you. You are alert, steady, and clear. Before you go back to your day, do one small thing for yourself: some water, a short walk, or a word with someone you trust. Well done.
