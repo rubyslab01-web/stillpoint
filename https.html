@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<title>Stillpoint HTTPS setup</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<main class="screen no-tabs"><div class="page">
+  <h1 class="large">Use Stillpoint over HTTPS</h1>
+  <p class="small">Optional. Over HTTPS the Home Screen app works offline (history, settings, and sessions you have already played with the live engine) and can share your data export with the share sheet. Everything else works the same over plain HTTP.</p>
+  <div class="card">
+    <h3>1. Install this Mac’s certificate</h3>
+    <p class="small">Tap the link below in Safari, then choose Allow. iPhone downloads it as a profile.</p>
+    <a class="btn" href="stillpoint-ca.crt">Download certificate</a>
+    <p class="caption">It was created on your Mac by serve-web.sh and only that Mac holds its private key. It lets your phone trust the Mac’s local web server and nothing else you’d otherwise visit. You can remove it any time in Settings › General › VPN &amp; Device Management.</p>
+  </div>
+  <div class="card">
+    <h3>2. Install the profile</h3>
+    <p class="small">Open Settings. Tap “Profile Downloaded” near the top (or General › VPN &amp; Device Management), then Install.</p>
+  </div>
+  <div class="card">
+    <h3>3. Trust it</h3>
+    <p class="small">Settings › General › About › Certificate Trust Settings. Turn on “Stillpoint local development CA”.</p>
+  </div>
+  <div class="card">
+    <h3>4. Open the secure address</h3>
+    <a class="btn" id="go" href="#">Open Stillpoint over HTTPS</a>
+    <p class="caption" id="addr"></p>
+    <p class="caption">Then Share › Add to Home Screen. Your history in the plain-HTTP version stays there; export and import isn’t built, so start fresh or keep using one address.</p>
+  </div>
+</div></main>
+<script>
+  const u = `https://${location.hostname}:8443/`;
+  document.getElementById('go').href = u;
+  document.getElementById('addr').textContent = u;
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" type="image/png" href="../icons/icon-192.png">
+<title>Lock-screen lab</title>
+<style>
+  :root { color-scheme: dark; --bg: #0E1220; --card: #1A2033; --fg: #fff; --muted: rgba(255,255,255,.62); --accent: #7C8CF8; }
+  body { margin: 0; padding: 16px; background: var(--bg); color: var(--fg); font: 16px/1.4 -apple-system, system-ui, sans-serif; }
+  h1 { font-size: 22px; margin: 4px 0 8px; }
+  p { color: var(--muted); margin: 0 0 12px; }
+  button { display: block; width: 100%; margin: 8px 0; padding: 14px; border: 0; border-radius: 12px; background: var(--card); color: var(--fg); font: inherit; font-weight: 600; text-align: left; }
+  button.primary { background: var(--accent); }
+  pre { white-space: pre-wrap; background: var(--card); padding: 12px; border-radius: 12px; font: 13px/1.4 ui-monospace, Menlo, monospace; }
+</style>
+</head>
+<body>
+<h1>Lock-screen lab</h1>
+<p>Compares the two playback paths while the screen is locked or Safari is in the background. Start one, lock the phone for a minute, unlock, and read the result. Diagnostics go to the Mac when the server runs with <code>--diag</code>.</p>
+<button id="a" class="primary">A: pre-rendered audio element</button>
+<button id="b">B: live Web Audio (with silent keep-alive element)</button>
+<button id="c">C: live Web Audio only</button>
+<button id="d">D: pre-rendered, file ends while hidden, then noise bed</button>
+<button id="stop">Stop</button>
+<pre id="out">Loading…</pre>
+<script type="module" src="lab.js"></script>
+</body>
+</html>

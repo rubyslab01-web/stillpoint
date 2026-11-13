@@ -1,0 +1,227 @@
+{
+ "format": 2,
+ "sessions": {
+  "gratitude-three-good-things": {
+   "contentKey": "088cf90b8554ba",
+   "buildKey": "84ffc19ed85b3782",
+   "title": "Three Good Things",
+   "duration": 486.97100000000006,
+   "variants": {
+    "binaural": {
+     "file": "gratitude-three-good-things/binaural.m4a",
+     "bytes": 5942400
+    },
+    "isochronic": {
+     "file": "gratitude-three-good-things/isochronic.m4a",
+     "bytes": 5942400
+    },
+    "none": {
+     "file": "gratitude-three-good-things/none.m4a",
+     "bytes": 5942400
+    }
+   },
+   "beds": {},
+   "renderedAt": "2026-11-13T02:15:07.465Z"
+  },
+  "coherence-steady-heart": {
+   "contentKey": "179bfa027a1e7f",
+   "buildKey": "e83b1fc36032712d",
+   "title": "Steady Heart",
+   "duration": 629.4369999999999,
+   "variants": {
+    "binaural": {
+     "file": "coherence-steady-heart/binaural.m4a",
+     "bytes": 7680640
+    },
+    "isochronic": {
+     "file": "coherence-steady-heart/isochronic.m4a",
+     "bytes": 7680640
+    },
+    "none": {
+     "file": "coherence-steady-heart/none.m4a",
+     "bytes": 7680640
+    }
+   },
+   "beds": {},
+   "renderedAt": "2026-11-13T02:15:17.584Z"
+  },
+  "compassion-warm-heart": {
+   "contentKey": "0e672d73dd4977",
+   "buildKey": "b1f636cd7c0c4254",
+   "title": "Warm Heart",
+   "duration": 649.6970000000001,
+   "variants": {
+    "binaural": {
+     "file": "compassion-warm-heart/binaural.m4a",
+     "bytes": 7927936
+    },
+    "isochronic": {
+     "file": "compassion-warm-heart/isochronic.m4a",
+     "bytes": 7927936
+    },
+    "none": {
+     "file": "compassion-warm-heart/none.m4a",
+     "bytes": 7927936
+    }
+   },
+   "beds": {},
+   "renderedAt": "2026-11-13T02:15:26.139Z"
+  },
+  "qs-breathe-free": {
+   "contentKey": "11284dd2dbcfd3",
+   "buildKey": "42291fef419fa188",
+   "title": "Breathe Free",
+   "duration": 702.9950000000001,
+   "variants": {
+    "binaural": {
+     "file": "qs-breathe-free/binaural.m4a",
+     "bytes": 8575616
+    },
+    "isochronic": {
+     "file": "qs-breathe-free/isochronic.m4a",
+     "bytes": 8575616
+    },
+    "none": {
+     "file": "qs-breathe-free/none.m4a",
+     "bytes": 8575616
+    }
+   },
+   "beds": {},
+   "renderedAt": "2026-11-13T02:15:36.282Z"
+  },
+  "qs-rescue-2": {
+   "contentKey": "059c3685a21c54",
+   "buildKey": "231dda36151bb2e3",
+   "title": "Breathe Through",
+   "duration": 104.87,
+   "variants": {
+    "binaural": {
+     "file": "qs-rescue-2/binaural.m4a",
+     "bytes": 1283456
+    },
+    "isochronic": {
+     "file": "qs-rescue-2/isochronic.m4a",
+     "bytes": 1283456
+    },
+    "none": {
+     "file": "qs-rescue-2/none.m4a",
+     "bytes": 1283456
+    }
+   },
+   "beds": {},
+   "renderedAt": "2026-11-13T02:15:37.777Z"
+  },
+  "qs-rescue-5": {
+   "contentKey": "1e8ebc0eb56a69",
+   "buildKey": "8a9bbba04b040e2a",
+   "title": "Ride the Wave",
+   "duration": 287.1069999999999,
+   "variants": {
+    "binaural": {
+     "file": "qs-rescue-5/binaural.m4a",
+     "bytes": 3507328
+    },
+    "isochronic": {
+     "file": "qs-rescue-5/isochronic.m4a",
+     "bytes": 3507328
+    },
+    "none": {
+     "file": "qs-rescue-5/none.m4a",
+     "bytes": 3507328
+    }
+   },
+   "beds": {},
+   "renderedAt": "2026-11-13T02:15:41.793Z"
+  },
+  "qs-rescue-10": {
+   "contentKey": "12a011bb977474",
+   "buildKey": "dec06bfaf47d25df",
+   "title": "Body Scan Reset",
+   "duration": 549.4110000000001,
+   "variants": {
+    "binaural": {
+     "file": "qs-rescue-10/binaural.m4a",
+     "bytes": 6704000
+    },
+    "isochronic": {
+     "file": "qs-rescue-10/isochronic.m4a",
+     "bytes": 6704000
+    },
+    "none": {
+     "file": "qs-rescue-10/none.m4a",
+     "bytes": 6704000
+    }
+   },
+   "beds": {},
+   "renderedAt": "2026-11-13T02:15:50.000Z"
+  },
+  "sleep-deep": {
+   "contentKey": "121c176c2b4f4b",
+   "buildKey": "a4504c330bfc72e7",
+   "title": "Deep Sleep",
+   "duration": 5400,
+   "variants": {
+    "binaural": {
+     "file": "sleep-deep/binaural.m4a",
+     "bytes": 65857408
+    },
+    "isochronic": {
+     "file": "sleep-deep/isochronic.m4a",
+     "bytes": 65857408
+    },
+    "none": {
+     "file": "sleep-deep/none.m4a",
+     "bytes": 65857408
+    }
+   },
+   "beds": {
+    "120": {
+     "file": "beds/brown_-20dB_in120_out60_120min.m4a",
+     "bytes": 29476521,
+     "duration": 7200
+    },
+    "240": {
+     "file": "beds/brown_-20dB_in120_out60_240min.m4a",
+     "bytes": 58951809,
+     "duration": 14400
+    }
+   },
+   "renderedAt": "2026-11-13T02:16:52.014Z"
+  },
+  "sleep-steady-heart": {
+   "contentKey": "167d5d966382a6",
+   "buildKey": "8e969eedbaf608c6",
+   "title": "Steady Heart for Sleep",
+   "duration": 5400,
+   "variants": {
+    "binaural": {
+     "file": "sleep-steady-heart/binaural.m4a",
+     "bytes": 65857408
+    },
+    "isochronic": {
+     "file": "sleep-steady-heart/isochronic.m4a",
+     "bytes": 65857408
+    },
+    "none": {
+     "file": "sleep-steady-heart/none.m4a",
+     "bytes": 65857408
+    }
+   },
+   "beds": {
+    "120": {
+     "file": "beds/brown_-20dB_in120_out60_120min.m4a",
+     "bytes": 29476521,
+     "duration": 7200
+    },
+    "240": {
+     "file": "beds/brown_-20dB_in120_out60_240min.m4a",
+     "bytes": 58951809,
+     "duration": 14400
+    }
+   },
+   "renderedAt": "2026-11-13T02:22:32.402Z"
+  }
+ },
+ "encoder": "AAC-LC 96 kbps CBR stereo, 48 kHz (afconvert); beds HE-AAC 32k (ffmpeg aac_at)",
+ "userGain": 0.75
+}

@@ -1,0 +1,118 @@
+{
+  "id": "qs-rescue-2",
+  "module": "quit-smoking",
+  "title": "Breathe Through",
+  "subtitle": "2 minutes. Breathe and squeeze until the urge passes",
+  "kind": "rescue",
+  "awake": true,
+  "carrierHz": 220,
+  "fadeInSeconds": 1.5,
+  "fadeOutSeconds": 4,
+  "noise": "pink",
+  "ambient": "glow",
+  "isochronicOffsetDb": -4,
+  "ducking": {
+    "amountDb": 6,
+    "attackSeconds": 0.3,
+    "releaseSeconds": 1.2,
+    "leadSeconds": 0.2
+  },
+  "phases": [
+    {
+      "id": "breathe",
+      "name": "Breathe",
+      "beatHz": 10,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -34,
+        "noise": -17,
+        "ambient": -26,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 1.5,
+      "segments": [
+        {
+          "id": "qs-r2-1",
+          "pauseAfter": 2
+        },
+        {
+          "id": "qs-r2-2",
+          "pauseAfter": 4.5
+        },
+        {
+          "id": "qs-r2-3",
+          "pauseAfter": 7
+        },
+        {
+          "id": "qs-r2-4",
+          "pauseAfter": 4.5
+        },
+        {
+          "id": "qs-r2-5",
+          "pauseAfter": 7
+        },
+        {
+          "id": "qs-r2-6",
+          "pauseAfter": 4.5
+        },
+        {
+          "id": "qs-r2-7",
+          "pauseAfter": 7.5
+        },
+        {
+          "id": "qs-r2-8",
+          "pauseAfter": 4
+        },
+        {
+          "id": "qs-r2-9",
+          "pauseAfter": 6
+        },
+        {
+          "id": "qs-r2-10",
+          "pauseAfter": 4
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "finish",
+      "name": "Back to your day",
+      "beatHz": 14,
+      "beatGlideSeconds": 15,
+      "levels": {
+        "beats": -34,
+        "noise": -17,
+        "ambient": -26,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 5,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "qs-r2-11",
+          "pauseAfter": 0
+        }
+      ],
+      "tailSeconds": 4,
+      "minDurationSeconds": 0
+    }
+  ],
+  "ratings": [
+    {
+      "id": "craving",
+      "question": "How strong is your urge to smoke right now?",
+      "minLabel": "None",
+      "maxLabel": "Overwhelming",
+      "range": [
+        0,
+        10
+      ],
+      "before": true,
+      "after": true,
+      "higherIsBetter": false
+    }
+  ],
+  "sortOrder": 1
+}

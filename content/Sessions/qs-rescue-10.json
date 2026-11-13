@@ -1,0 +1,168 @@
+{
+  "id": "qs-rescue-10",
+  "module": "quit-smoking",
+  "title": "Body Scan Reset",
+  "subtitle": "10 minutes. A slow body scan to settle a strong craving",
+  "kind": "rescue",
+  "awake": true,
+  "carrierHz": 220,
+  "fadeInSeconds": 1.5,
+  "fadeOutSeconds": 4,
+  "noise": "pink",
+  "ambient": "glow",
+  "isochronicOffsetDb": -4,
+  "ducking": {
+    "amountDb": 6,
+    "attackSeconds": 0.3,
+    "releaseSeconds": 1.2,
+    "leadSeconds": 0.2
+  },
+  "phases": [
+    {
+      "id": "arrive",
+      "name": "Arrive",
+      "beatHz": 10,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -34,
+        "noise": -17,
+        "ambient": -26,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 1.5,
+      "segments": [
+        {
+          "id": "qs-r10-1",
+          "pauseAfter": 3
+        },
+        {
+          "id": "qs-r10-2",
+          "pauseAfter": 4
+        },
+        {
+          "id": "qs-r10-3",
+          "pauseAfter": 8
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "scan",
+      "name": "Body scan",
+      "beatHz": 8,
+      "beatGlideSeconds": 60,
+      "levels": {
+        "beats": -34,
+        "noise": -17,
+        "ambient": -26,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "qs-r10-4",
+          "pauseAfter": 28
+        },
+        {
+          "id": "qs-r10-5",
+          "pauseAfter": 26
+        },
+        {
+          "id": "qs-r10-6",
+          "pauseAfter": 26
+        },
+        {
+          "id": "qs-r10-7",
+          "pauseAfter": 15
+        },
+        {
+          "id": "qs-r10-8",
+          "pauseAfter": 26
+        },
+        {
+          "id": "qs-r10-9",
+          "pauseAfter": 30
+        },
+        {
+          "id": "qs-r10-10",
+          "pauseAfter": 30
+        },
+        {
+          "id": "qs-r10-11",
+          "pauseAfter": 28
+        },
+        {
+          "id": "qs-r10-12",
+          "pauseAfter": 24
+        },
+        {
+          "id": "qs-r10-13",
+          "pauseAfter": 28
+        },
+        {
+          "id": "qs-r10-14",
+          "pauseAfter": 26
+        },
+        {
+          "id": "qs-r10-15",
+          "pauseAfter": 28
+        },
+        {
+          "id": "qs-r10-16",
+          "pauseAfter": 30
+        },
+        {
+          "id": "qs-r10-17",
+          "pauseAfter": 18
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "finish",
+      "name": "Back to your day",
+      "beatHz": 14,
+      "beatGlideSeconds": 30,
+      "levels": {
+        "beats": -34,
+        "noise": -17,
+        "ambient": -26,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 5,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "qs-r10-18",
+          "pauseAfter": 6
+        },
+        {
+          "id": "qs-r10-19",
+          "pauseAfter": 0
+        }
+      ],
+      "tailSeconds": 4,
+      "minDurationSeconds": 0
+    }
+  ],
+  "ratings": [
+    {
+      "id": "craving",
+      "question": "How strong is your urge to smoke right now?",
+      "minLabel": "None",
+      "maxLabel": "Overwhelming",
+      "range": [
+        0,
+        10
+      ],
+      "before": true,
+      "after": true,
+      "higherIsBetter": false
+    }
+  ],
+  "sortOrder": 3
+}

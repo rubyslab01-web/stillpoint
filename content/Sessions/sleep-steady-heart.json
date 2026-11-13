@@ -1,0 +1,380 @@
+{
+  "id": "sleep-steady-heart",
+  "module": "sleep",
+  "title": "Steady Heart for Sleep",
+  "subtitle": "Breathe with the wind, then drift into sleep. Beats fade by 90 minutes",
+  "kind": "main",
+  "awake": false,
+  "carrierHz": 240,
+  "fadeInSeconds": 10,
+  "fadeOutSeconds": 60,
+  "noise": "brown",
+  "ambient": "forest",
+  "isochronicOffsetDb": -6,
+  "ducking": {
+    "amountDb": 5,
+    "attackSeconds": 1,
+    "releaseSeconds": 4,
+    "leadSeconds": 0.6
+  },
+  "phases": [
+    {
+      "id": "settle",
+      "name": "Settling",
+      "beatHz": 10,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -37,
+        "noise": -20,
+        "ambient": -16,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 8,
+      "segments": [
+        {
+          "id": "shs-pre-1",
+          "pauseAfter": 4
+        },
+        {
+          "id": "shs-pre-2",
+          "pauseAfter": 4
+        },
+        {
+          "id": "shs-pre-3",
+          "pauseAfter": 4
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "warmup",
+      "name": "Breathing with the wind",
+      "beatHz": 10,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -37,
+        "noise": -20,
+        "ambient": -16,
+        "pacer": -13
+      },
+      "levelGlideSeconds": 3,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "shs-warm-1",
+          "pauseAfter": 40
+        },
+        {
+          "id": "shs-warm-2",
+          "pauseAfter": 4
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0,
+      "pacer": {
+        "breathsPerMinute": 7.5,
+        "inhaleFraction": 0.4,
+        "lowHz": 174.61,
+        "highHz": 261.63,
+        "sound": "wind"
+      }
+    },
+    {
+      "id": "breathe",
+      "name": "Breathing",
+      "beatHz": 6,
+      "beatGlideSeconds": 180,
+      "levels": {
+        "beats": -37,
+        "noise": -20,
+        "ambient": -16,
+        "pacer": -13
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "shs-b-1",
+          "pauseAfter": 100
+        },
+        {
+          "id": "shs-b-2",
+          "pauseAfter": 70
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0,
+      "pacer": {
+        "breathsPerMinute": 6,
+        "inhaleFraction": 0.4,
+        "lowHz": 174.61,
+        "highHz": 261.63,
+        "sound": "wind"
+      }
+    },
+    {
+      "id": "heart",
+      "name": "Heart focus",
+      "beatHz": 6,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -37,
+        "noise": -20,
+        "ambient": -16,
+        "pacer": -13
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "shs-heart-1",
+          "pauseAfter": 24
+        },
+        {
+          "id": "shs-heart-2",
+          "pauseAfter": 44
+        },
+        {
+          "id": "shs-heart-3",
+          "pauseAfter": 36
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0,
+      "pacer": {
+        "breathsPerMinute": 6,
+        "inhaleFraction": 0.4,
+        "lowHz": 174.61,
+        "highHz": 261.63,
+        "sound": "wind"
+      }
+    },
+    {
+      "id": "release",
+      "name": "Letting go",
+      "beatHz": 6,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -37,
+        "noise": -20,
+        "ambient": -16,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 40,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "shs-rel-1",
+          "pauseAfter": 20
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0,
+      "pacer": {
+        "breathsPerMinute": 6,
+        "inhaleFraction": 0.4,
+        "lowHz": 174.61,
+        "highHz": 261.63,
+        "sound": "wind"
+      }
+    },
+    {
+      "id": "deepening",
+      "name": "Sinking deeper",
+      "beatHz": 6,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -37,
+        "noise": -20,
+        "ambient": -17,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "shs-deep-1",
+          "pauseAfter": 14
+        },
+        {
+          "id": "shs-deep-2",
+          "pauseAfter": 16
+        },
+        {
+          "id": "shs-deep-3",
+          "pauseAfter": 16
+        },
+        {
+          "id": "shs-deep-4",
+          "pauseAfter": 20
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "suggestion",
+      "name": "Deep sleep",
+      "beatHz": 6,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -37,
+        "noise": -20,
+        "ambient": -18,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 20,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "shs-sug-1",
+          "pauseAfter": 16
+        },
+        {
+          "id": "shs-sug-2",
+          "pauseAfter": 18
+        },
+        {
+          "id": "shs-sug-3",
+          "pauseAfter": 18
+        },
+        {
+          "id": "shs-sug-4",
+          "pauseAfter": 20
+        },
+        {
+          "id": "shs-sug-5",
+          "pauseAfter": 22
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "fading",
+      "name": "Drifting off",
+      "beatHz": 6,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -37,
+        "noise": -20,
+        "ambient": -20,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 30,
+      "leadInSeconds": 0,
+      "segments": [
+        {
+          "id": "shs-fade-1",
+          "pauseAfter": 28
+        },
+        {
+          "id": "shs-fade-2",
+          "pauseAfter": 34
+        },
+        {
+          "id": "shs-fade-3",
+          "pauseAfter": 40
+        },
+        {
+          "id": "shs-fade-4",
+          "pauseAfter": 40
+        }
+      ],
+      "tailSeconds": 0,
+      "minDurationSeconds": 0
+    },
+    {
+      "id": "delta",
+      "name": "Delta",
+      "beatHz": 3,
+      "beatGlideSeconds": 300,
+      "levels": {
+        "beats": -34,
+        "noise": -16,
+        "ambient": -96,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 240,
+      "leadInSeconds": 0,
+      "segments": [],
+      "tailSeconds": 0,
+      "minDurationSeconds": 3608.71
+    },
+    {
+      "id": "beat-fade",
+      "name": "Beats fading",
+      "beatHz": 3,
+      "beatGlideSeconds": 0,
+      "levels": {
+        "beats": -96,
+        "noise": -16,
+        "ambient": -96,
+        "pacer": -96
+      },
+      "levelGlideSeconds": 840,
+      "leadInSeconds": 0,
+      "segments": [],
+      "tailSeconds": 0,
+      "minDurationSeconds": 900
+    }
+  ],
+  "ratings": [
+    {
+      "id": "tension",
+      "question": "How wound up do you feel right now?",
+      "minLabel": "Completely relaxed",
+      "maxLabel": "Very wound up",
+      "range": [
+        0,
+        10
+      ],
+      "before": true,
+      "after": false,
+      "higherIsBetter": false
+    },
+    {
+      "id": "onset",
+      "question": "How quickly did you fall asleep last night?",
+      "minLabel": "Very slowly",
+      "maxLabel": "Very quickly",
+      "range": [
+        0,
+        10
+      ],
+      "before": false,
+      "after": true,
+      "higherIsBetter": true,
+      "timing": "nextMorning"
+    },
+    {
+      "id": "quality",
+      "question": "How well did you sleep?",
+      "minLabel": "Very badly",
+      "maxLabel": "Very well",
+      "range": [
+        0,
+        10
+      ],
+      "before": false,
+      "after": true,
+      "higherIsBetter": true,
+      "timing": "nextMorning"
+    }
+  ],
+  "sortOrder": 1,
+  "noiseBed": {
+    "optionsMinutes": [
+      0,
+      120,
+      240,
+      480
+    ],
+    "defaultMinutes": 0,
+    "levelDb": -20,
+    "crossfadeSeconds": 120,
+    "fadeOutSeconds": 60
+  }
+}
